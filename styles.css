@@ -1,0 +1,90 @@
+body {
+  background-image: url(pexels-xenofan-696995602-21760959.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Krona One", Arial, Helvetica, sans-serif;
+}
+#parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#log-in {
+  z-index: -1;
+  position: fixed;
+  width: 70%;
+  height: 80%;
+  border-radius: 100px;
+  backdrop-filter: blur(20px);
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin-top: 10%;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 20px rgba(52, 241, 52, 0.308);
+}
+input {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-self: center;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 0;
+  background-color: rgba(0, 0, 0, 0.507);
+  backdrop-filter: blur(105px);
+  border: none;
+  border-radius: 10px;
+  transition: 2s;
+}
+input:focus {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#create-account {
+  position: fixed;
+  width: 70%;
+  height: 80%;
+  border-radius: 100px;
+  backdrop-filter: blur(20px);
+  padding: 30px;
+  z-index: 1;
+}
+button {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-self: center;
+  padding: 10px 10%;
+  background-color: rgba(114, 114, 114, 0.582);
+  backdrop-filter: blur(105px);
+  border: none;
+  border-radius: 1000px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.507);
+  color: rgb(175, 175, 175);
+}
+a {
+  margin-top: 2%;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: rgb(165, 255, 205);
+  cursor: pointer;
+  transition: 0.15s;
+}
+a:hover {
+  color: rgb(78, 128, 100);
+}
